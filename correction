@@ -1,0 +1,7 @@
+toggledark.addEventListener("click", function(){
+    document.body.className = 'light';
+    localStorage.setItem('theme','light');
+    toggledark.classList.add('active');
+    toggledark.classList.remove('active');
+    
+})
